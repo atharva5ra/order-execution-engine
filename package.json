@@ -1,0 +1,21 @@
+{
+  "name": "eterna-labs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "uuid": "^13.0.0",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.9.3",
+    "@types/node": "^25.0.5",
+    "@types/express": "^5.0.6",
+    "@types/ws": "^8.18.1"
+  }
+}
